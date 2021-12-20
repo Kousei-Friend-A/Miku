@@ -21,7 +21,7 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**Hi!!, \nI'm Miku☺️[❤️](https://telegra.ph/file/77ad1ece086f32727c273.jpg), A Mention All Bot.**\nI can mention almost all members in group or channel.\n\n📜 Click **/help** for more information__\n\n🔰 Powered By : @waifuNetwork",
+    "__**Hi!!, \nI'm Miku☺️<a href=https://telegra.ph/file/77ad1ece086f32727c273.jpg>❤️</a>, A Mention All Bot.**\nI can mention almost all members in group or channel.\n\n📜 Click **/help** for more information__\n\n🔰 Powered By : @waifuNetwork",
     link_preview=False,
     buttons=(
       [
@@ -33,7 +33,7 @@ async def start(event):
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**📜 Help Menu of Miku**\n\n⚜️ /mentionall : __You can use this command with text what you want to mention others.__\nExample: `/mentionall Good Morning!`\n__You can you this command as a reply to any message. Miku will tag users to that replied messsage__.\n\n⭕️<i>Note : Use /cancel command to stop the process.</i>"
+  helptext = "**📜 Help Menu of Miku**\n\n⚜️ /mentionall : __You can use this command with text what you want to mention others.__\nExample: `/mentionall Good Morning!`\n__You can you this command as a reply to any message. Miku will tag users to that replied messsage__.\n\n⭕️__Note : Use /cancel command to stop the process.__"
   await event.reply(
     helptext,
     link_preview=False,
