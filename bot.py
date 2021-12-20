@@ -21,7 +21,7 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**Hi!!, \nI'm Miku☺️<a href="https://telegra.ph/file/77ad1ece086f32727c273.jpg">❤️</a>, A Mention All Bot.**\nI can mention almost all members in group or channel.\n\n📜 Click **/help** for more information__\n\n🔰 Powered By : @waifuNetwork",
+    "__**Hi!!, \nI'm Miku☺️❤️, A Mention All Bot.**\nI can mention almost all members in group or channel.\n\n📜 Click **/help** for more information__\n\n🔰 Powered By : @waifuNetwork",
     link_preview=False,
     buttons=(
       [
