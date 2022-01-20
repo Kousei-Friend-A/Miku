@@ -1,0 +1,21 @@
+name: Miku Deploy 1
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+        with:
+          heroku_api_key: "b9bd2703-bc81-4df7-93fb-40a9e638b719"
+          heroku_app_name: "mikumentionallbot" #Must be unique in Heroku
+          heroku_email: "asunavcplay@yandex.com"
+        env:
+          HD_APP_ID: "8143727"
+          HD_API_HASH: "e2e9b22c6522465b62d8445840a526b1"
+          HD_TOKEN: "5011062548:AAG7vq2gDN3J8Ze7Paz5tFgLnCnDPwLt8sE"          
