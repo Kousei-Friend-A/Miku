@@ -1,4 +1,4 @@
-name: Rizu Deploy 1
+name: Miku Deploy 1
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: "b9bd2703-bc81-4df7-93fb-40a9e638b719"
-          heroku_app_name: "rizutempmail" #Must be unique in Heroku
+          heroku_app_name: "mikumentionallbot" #Must be unique in Heroku
           heroku_email: "asunavcplay@yandex.com"
         env:
           HD_APP_ID: "8143727"
