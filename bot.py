@@ -21,12 +21,11 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**Hi!!, \nI'm Miku☺️❤️, A Mention All Bot.**\nI can mention almost all members in group or channel.\n\n📜 Click **/help** for more information__\n\n🔰 Powered By : @waifuNetwork",
+    "__**Hi!!, \nI'm Miku☺️❤️, A Mention All Bot.**\nI can mention almost all members in group or channel.\n\n📜 Click **/help** for more information__",
     link_preview=False,
     buttons=(
       [
-        Button.url('📢 Update Channel', 'https://t.me/waifuNetwork'),
-        Button.url('👨‍💻 Owner', 'https://t.me/Friend_A_Kousei')
+        Button.url('👨‍💻 Dev', 'https://t.me/Friend_A_Kousei')
       ]
     )
   )
@@ -39,8 +38,7 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('📢 Update Channel', 'https://t.me/waifuNetwork'),
-        Button.url('👨‍💻 Owner', 'https://t.me/Friend_A_Kousei')
+        Button.url('👨‍💻 Dev', 'https://t.me/Friend_A_Kousei')
       ]
     )
   )
