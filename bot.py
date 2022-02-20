@@ -26,10 +26,10 @@ async def start(event):
     buttons=(
       [
         Button.url('✨ Bot Status and More Bots ✨', 'https://t.me/WaifuHaremBots'),  
-        Button.url('👨‍💻 Dev', 'https://t.me/Friend_A_Kousei')
+        Button.url('👨‍💻 Dev', 'https://t.me/Kousei_Assistantbot')
       ],
       [
-        Button.url('➕ Add me to your group', 't.me/RequestTracker_bot?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/MikuMentionAll_bot?startgroup=true')
       ]    
     )
   )
@@ -42,7 +42,7 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('👨‍💻 Dev', 'https://t.me/Friend_A_Kousei')
+        Button.url('➕ Add me to your group', 't.me/MikuMentionAll_bot?startgroup=true')
       ]
     )
   )
