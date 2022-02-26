@@ -25,7 +25,7 @@ async def start(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('✨ Bot Status and More Bots ✨', 'https://t.me/WaifuHaremBots'),  
+        Button.url('✨ More Bots ✨', 'https://t.me/WaifuHaremBots'),  
         Button.url('👨‍💻 Dev', 'https://t.me/Kousei_Assistantbot')
       ],
       [
