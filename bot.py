@@ -25,7 +25,7 @@ async def start(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('✨ More Bots ✨', 'https://t.me/WaifuHaremBots'),  
+        Button.url('💠 Source Code', 'https://github.com/Kousei-Friend-A/Miku-MentionAll_Bot'),  
         Button.url('👨‍💻 Dev', 'https://t.me/Kousei_Assistantbot')
       ],
       [
