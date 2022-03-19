@@ -1,3 +1,4 @@
 telethon
+pyrogram>=1.0.0
 cryptg
 asyncio
