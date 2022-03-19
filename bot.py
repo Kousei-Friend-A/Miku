@@ -112,7 +112,7 @@ async def mentionall(event):
   except:
     pass
 
-@Client.on_message(filters.regex("(?i)@admin(s)?"))
+@Client.on_message(filters.command("@admin"))
 async def tag_admins(c: Client, m: Message):
 
     adminslist = []
