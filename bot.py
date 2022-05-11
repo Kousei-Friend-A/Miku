@@ -21,7 +21,7 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-    "__**Hi!!, \nI'm Miku☺️❤️, A Mention All Bot.**\nI can mention almost all members in group or channel.\n\n📜 Click **/help** for more information__",
+    "Hi!!, \nI'm Miku☺️❤️, A Mention All Bot.\nI can mention almost all members in group or channel.\n\n📜 Click /help for more information",
     link_preview=False,
     buttons=(
       [
@@ -36,7 +36,7 @@ async def start(event):
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**📜 Help Menu of Miku**\n\n⚜️ /mentionall : __You can use this command with text what you want to mention others.__\nExample: `/mentionall Good Morning!`\n__You can you this command as a reply to any message. Miku will tag users to that replied messsage__.\n\n⭕️__Note : Use /cancel command to stop the process.__"
+  helptext = "**📜 Help Menu of Miku**\n\n⚜️ /mentionall : You can use this command with text what you want to mention others.\nExample: `/mentionall Good Morning!`\n__You can you this command as a reply to any message. Miku will tag users to that replied messsage__.\n\n⭕️__Note : Use /cancel command to stop the process.__"
   await event.reply(
     helptext,
     link_preview=False,
@@ -73,7 +73,7 @@ async def mentionall(event):
     ):
       is_admin = True
   if not is_admin:
-    return await event.respond("__Only admins can mention all!__")
+    return await event.respond("Only admins can mention all.. Bakaa..")
   
   if event.pattern_match.group(1) and event.is_reply:
     return await event.respond("__Give me one argument!__")
