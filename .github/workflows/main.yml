@@ -14,8 +14,4 @@ jobs:
         with:
           heroku_api_key: "cc8010ab-975e-4348-92dd-823eba266a8d"
           heroku_app_name: "mikumentionallbot" #Must be unique in Heroku
-          heroku_email: "asunavcplay@yandex.com"
-        env:
-          HD_APP_ID: "8143727"
-          HD_API_HASH: "e2e9b22c6522465b62d8445840a526b1"
-          HD_TOKEN: "5011062548:AAG7vq2gDN3J8Ze7Paz5tFgLnCnDPwLt8sE"          
+          heroku_email: "asunavcplay@yandex.com"        
