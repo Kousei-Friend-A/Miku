@@ -25,8 +25,8 @@ async def start(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('💠 Source Code', 'https://github.com/Kousei-Friend-A/Miku-MentionAll_Bot'),  
-        Button.url('👨‍💻 Dev', 'https://t.me/Kousei_Assistantbot')
+        Button.url('💠Update Channel', 'https://t.me/Otaku_Network'),  
+        Button.url('👨‍💻 Dev', 'https://t.me/Otaku_Network')
       ],
       [
         Button.url('➕ Add me to your group', 't.me/MikuMentionAll_bot?startgroup=true')
