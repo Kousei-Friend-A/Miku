@@ -25,11 +25,11 @@ async def start(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('💠Update Channel', 'https://t.me/Otaku_Network'),  
-        Button.url('👨‍💻 Dev', 'https://t.me/Otaku_Network')
+        Button.url('💠Update Channel', 'https://t.me/Elvazo'),  
+        Button.url('👨‍💻 Dev', 'https://t.me/Nikku0XD')
       ],
       [
-        Button.url('➕ Add me to your group', 't.me/MikuMentionAll_bot?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/MentionAllx_Robot?startgroup=true')
       ]    
     )
   )
@@ -42,7 +42,7 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('➕ Add me to your group', 't.me/MikuMentionAll_bot?startgroup=true')
+        Button.url('➕ Add me to your group', 't.me/MentionAllx_Robot?startgroup=true')
       ]
     )
   )
