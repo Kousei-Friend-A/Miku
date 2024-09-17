@@ -12,9 +12,9 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-api_id = "17945796"
-api_hash = "4a05481a5da2d66f801acffc4ca5ee4b"
-bot_token = "5011062548:AAH6LCh3zCu_mIejfcQaT3v0uoKQRxPQXo4"
+api_id = "8143727"
+api_hash = "e2e9b22c6522465b62d8445840a526b1"
+bot_token = "7070931882:AAFfjrAuCmHhdbMT8Nweo5vj1Je7gt7-oMY"
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 spam_chats = []
 
